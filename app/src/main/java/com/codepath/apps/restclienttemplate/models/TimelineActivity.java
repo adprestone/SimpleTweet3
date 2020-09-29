@@ -83,7 +83,7 @@ public class TimelineActivity extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item){
         if (item.getItemId()== R.id.compose){
-            //Navigate to the compose activity
+           //Navigate to the compose activity
             Intent intent = new Intent(this, ComposeActivity.class);
             startActivityForResult(intent, REQUEST_CODE);
             return true;
